@@ -81,7 +81,7 @@ def game_loop():
         compare(user, computer)
         
         # Ask the user if they wish to play the game again
-        play_again = input("Woud you like to play again? y/N:")
+        play_again = input("Woud you like to play again? Y/N:")
         
         # If the user selects no, or "n" then the play_game will be set to False 
         # to exit the game loop
